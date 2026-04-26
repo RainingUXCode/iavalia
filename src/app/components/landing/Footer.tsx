@@ -7,7 +7,7 @@ import {
   HelpCircle,
 } from "lucide-react";
 
-import logoImg from "../assets/logo-iavalia.png";
+import logoImg from "../../../assets/logo-iavalia.png";
 
 export function Footer() {
   return (

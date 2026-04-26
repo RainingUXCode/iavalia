@@ -2,7 +2,7 @@ interface HeaderProps {
   onLoginClick?: () => void;
 }
 
-import logoImg from "../../assets/logo-iavalia.png";
+import logoImg from "../../../assets/logo-iavalia.png";
 
 export function Header({ onLoginClick }: HeaderProps) {
   return (

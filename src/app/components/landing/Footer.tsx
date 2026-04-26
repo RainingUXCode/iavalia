@@ -7,6 +7,8 @@ import {
   HelpCircle,
 } from "lucide-react";
 
+import logoImg from "../assets/logo-iavalia.png";
+
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -16,7 +18,7 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-9 h-9 bg-primary-foreground rounded flex items-center justify-center overflow-hidden">
                 <img
-                  src="/src/assets/logo-iavalia.png"
+                  src={logoImg}
                   alt="IAvalia"
                   className="w-7 h-7 object-contain"
                 />

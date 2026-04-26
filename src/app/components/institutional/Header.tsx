@@ -2,6 +2,8 @@ interface HeaderProps {
   onLoginClick?: () => void;
 }
 
+import logoImg from "../assets/logo-iavalia.png";
+
 export function Header({ onLoginClick }: HeaderProps) {
   return (
     <header className="bg-[#003366] text-white shadow-lg sticky top-0 z-50">
@@ -9,7 +11,7 @@ export function Header({ onLoginClick }: HeaderProps) {
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 bg-white rounded flex items-center justify-center overflow-hidden flex-shrink-0">
             <img
-              src="/src/assets/logo-iavalia.png"
+              src={logoImg}
               alt="IAvalia"
               className="w-7 h-7 object-contain"
             />
